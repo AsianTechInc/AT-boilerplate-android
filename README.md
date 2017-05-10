@@ -1,6 +1,7 @@
-#AT-Android-Boilerplate Simply
+
+### AT-Android-Boilerplate Simply
 ***
-The AT-Android-Boilerplate look like simple framework of AT Android Team which support networking, download image, `annonation`, synching data with `RxJava` - `RxAndroid` and integrate ``Circle CI`, `Travis CI`. It's simply for beginer learning base of Android Project in AT.
+The AT-Android-Boilerplate look like simple framework of AT Android Team which support networking, download image, `annonation`, synching data with `RxJava` - `RxAndroid` and integrate `Circle CI`, `Travis CI`. It's simply for beginer learning base of Android Project in AT.
 
 What we do:
 -
