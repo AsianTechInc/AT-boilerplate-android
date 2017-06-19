@@ -75,7 +75,9 @@ android {
 
     lintOptions {
         abortOnError false
+        checkReleaseBuilds false
         lintConfig file('lint.xml')
+        xmlOutput file("${buildDir}/outputs/lint-results-debug.xml")
     }
 }
 
