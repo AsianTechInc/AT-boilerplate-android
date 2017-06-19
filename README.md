@@ -1,7 +1,7 @@
 AT-Android-Boilerplate Simply
 -----------------
 
-![Banner](https://github.com/at-kietvo/AT-Android-Boilerplate-Simply/raw/master/banner_android.png)
+![Banner](asset/banner_android.png)
 
 ***
 The AT-Android-Boilerplate look like simple framework of AT Android Team which support networking, download image, `annonation`, synching data with `RxJava` - `RxAndroid` and integrate `Circle CI`, `Travis CI`. It's simply for beginer learning base of Android Project in AT.
