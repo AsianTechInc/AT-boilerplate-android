@@ -1,22 +1,22 @@
 AT-Android-Boilerplate Simply
 -----------------
 
+[![Build Status](https://travis-ci.org/at-kietvo/AT-Android-Boilerplate-Simply.png?branch=master)](https://travis-ci.org/at-kietvo/AT-Android-Boilerplate-Simply)
+
+
 ![Banner](asset/banner_android.png)
 
 ***
-The AT-Android-Boilerplate look like simple framework of AT Android Team which support networking, download image, `annonation`, synching data with `RxJava` - `RxAndroid` and integrate `Circle CI`, `Travis CI`. It's simply for beginer learning base of Android Project in AT.
+The AT-Android-Boilerplate constains the source code support networking, download image, `annonation`, synching data with `RxJava` - `RxAndroid` and integrate `Circle CI`, `Travis CI`. It's simply for beginer learning base of Android Project in AT.
 
 Table of Contents
 -----------------
 - [What we do](#what-we-do)
 - [Features](#features)
-- [Request Features](#request-features)
 - [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
+- [Beginning Android Project](#beginning-android-project)
 - [Project Structure](#project-structure)
-- [Practice](#practice)
-- [Changelog](#changelog)
-- [FAQ](#faq)
+- [Sample](#sample)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -36,13 +36,6 @@ Features
 - [Travis CI](https://travis-ci.org/)
 - `Checkstyle`, `PMD` and `Findbugs` for code analysis.
 
-Request Feature:
------------------
-- Add Unittest.
-- Improve `MVC`, `MVP`, `MVVM` models.
-- Remove `Android Annonations` and using `Java 8` instead.
-- Add base some of `Design pattern`.
-
 Prerequisites
 -----------------
 - **OS** : `Mac OS`, `Linux`, `Windows`.
@@ -50,7 +43,7 @@ Prerequisites
 - **IDE** : Android Studio 2.3 and above.
 - **Enviroment** : Java JDK 1.8 and above.
 
-Getting Started
+Beginning Android Project
 -----------------
 If you guys want to create new project with this boilerplate, you must follow this steps one by one:
 
@@ -68,7 +61,7 @@ If you guys want to create new project with this boilerplate, you must follow th
 	
 		- Right click to package in project tools.
 		
-			![](https://github.com/at-kietvo/AT-Android-Boilerplate-Simply/raw/master/choose_rename.png)	
+			![](asset/choose_rename.png)	
 		- Refactor -> Rename -> Choosing rename package.
 		
 	- `applicationId` in `build.gradle`
@@ -87,7 +80,7 @@ Project Structure
 -----------------
 - See structure of project tree.
 
-	![](https://github.com/at-kietvo/AT-Android-Boilerplate-Simply/raw/master/android_struct.png)
+	![](asset/android_struct.png)
 	
 - Resource structure
 
@@ -101,40 +94,39 @@ Project Structure
 	| Strings      | `res/values/strings.xml`  | This is where we put strings.           |
 	| Styles       | `res/values/styles.xml`   | This is where we put style values.      |
 
-Practice
+Sample
 -----------------
-I always put `sample` code inside this project, let take deep look at `root` of package.
-
-Some `demo` I will putting here if needed.
-
-If you guys want to make a demo, feel free for open new pull request.
-
-Changelog
------------------
-### 1.0.0 (May 19, 2017)
-- Init first project.
-- Created Readme.md file.
-- Added [Retrofit 2.2.0](https://github.com/square/retrofit)
-- Added [Picasso 2.5.2](https://github.com/square/picasso)
-- Added [Android Annontations 3.2](https://github.com/androidannotations/androidannotations)
-- Added [RxJava and RxAndroid 2.x](https://github.com/ReactiveX/RxAndroid)
-- Added [Otto](https://github.com/square/otto) (Deprecated using RxJava instead, see [here](http://blog.kaush.co/2014/12/24/implementing-an-event-bus-with-rxjava-rxbus/))
-- Added [Circle CI](https://circleci.com/)
-- Added [Travis CI](https://travis-ci.org/)
-- Added  `Checkstyle`, `PMD` and `Findbugs` for code analysis.
-
-FAQ
------------------
-If you guys want to asking some question, feel free create new issue, I will reply asap. Thank a lot.
+- Clone this project.
+- Build and run to see `sample`.
 
 Contributing
 ------------
-If something is unclear, confusing, or needs to be refactored, please let me know via Email, Skype asap.
+For bugs, questions and discussions please use the **Github Issues**.
 
-Pull requests are always welcome, but due to the opinionated nature of this project, I cannot accept every pull request. 
-
-Please open an issue before submitting a pull request.
+Thank you to all the contributors on this project. Your help is much appreciated.
 
 License
 -------
-None.
+```
+MIT License
+
+Copyright (c) 2017 Asiantech Co., Ltd
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
