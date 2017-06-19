@@ -31,4 +31,3 @@ script:
 after_script:
  - mkdir -p $TRAVIS_BUILD_DIR/junit/
  - find . -type d -regex ".*/reports/tests$" -exec cp -r {} $TRAVIS_BUILD_DIR/junit/ \;
-
