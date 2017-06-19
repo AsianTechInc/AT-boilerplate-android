@@ -38,7 +38,9 @@ android {
         }
 
         debug {
-            storeFile file("../keystores/debug.jks")
+            if (!System.getenv('CI')) {
+                storeFile file("../keystores/debug.jks")
+            }
         }
     }
 
