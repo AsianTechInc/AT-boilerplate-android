@@ -1,8 +1,7 @@
 AT-Android-Boilerplate
 -----------------
 
-[![Build Status](https://travis-ci.org/at-kietvo/AT-Android-Boilerplate-Simply.png?branch=master)](https://travis-ci.org/at-kietvo/AT-Android-Boilerplate-Simply)
-
+[![CircleCI](https://circleci.com/gh/AsianTechInc/AT-boilerplate-android/tree/master.svg?style=svg&circle-token=97f3b53198012acaf0683c86546836edab4d348d)](https://circleci.com/gh/AsianTechInc/AT-boilerplate-android/tree/master)
 
 ![Banner](asset/banner_android.png)
 
