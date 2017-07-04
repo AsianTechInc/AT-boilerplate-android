@@ -23,8 +23,6 @@ import retrofit2.Callback;
 import retrofit2.Response;
 import vn.asiantech.androidboilderplate.R;
 import vn.asiantech.androidboilderplate.api.ApiService;
-import vn.asiantech.androidboilderplate.base.BaseActivity;
-import vn.asiantech.androidboilderplate.eventbus.BusProvider;
 import vn.asiantech.androidboilderplate.models.Test;
 import vn.asiantech.androidboilderplate.models.TestRx;
 
@@ -104,7 +102,6 @@ public class MainActivity extends BaseActivity {
                         String text = strings.toString();
                         Test test = new Test();
                         test.setLogin(text);
-                        BusProvider.getInstance().getBus().post(test);
                     }
 
                     @Override
@@ -131,8 +128,6 @@ public class MainActivity extends BaseActivity {
 
                     @Override
                     public void onNext(@NonNull TestRx test) {
-                        // Send textRx object to Fragment
-                        BusProvider.getInstance().getBus().post(test);
                     }
 
                     @Override
