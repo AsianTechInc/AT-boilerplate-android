@@ -1,4 +1,4 @@
-AT-Android-Boilerplate Simply
+AT-Android-Boilerplate
 -----------------
 
 [![Build Status](https://travis-ci.org/at-kietvo/AT-Android-Boilerplate-Simply.png?branch=master)](https://travis-ci.org/at-kietvo/AT-Android-Boilerplate-Simply)
